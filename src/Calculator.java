@@ -97,7 +97,7 @@ public class Calculator {
 	}
 
 	public static void result() {
-		switch (choice1) {  // Ввод выбора
+		switch (choice1) {  // Select input
 			case 1 -> System.out.printf("Answer: %d\n", addition(firstNumber, secondNumber));
 			case 2 -> System.out.printf("Answer: %d\n", subtraction(firstNumber, secondNumber));
 			case 3 -> divide(firstNumber, secondNumber);
@@ -125,7 +125,7 @@ public class Calculator {
 		}
 	}
 	public static void mainJob() {
-		print(); // Вывод текста приветствия и выбора
+		print(); // Display welcome and selection text
 		setChoice();
 		setFirstNumber();
 		setSecondNumber();
@@ -133,4 +133,3 @@ public class Calculator {
 		nextContinue();
 	}
 }
-`
